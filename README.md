@@ -5,3 +5,13 @@ This project uses synthetic workforce data to identify factors associated with v
 
 ## Business Problem
 The goal is to understand which workforce factors are associated with higher attrition risk and translate those findings into responsible retention insights.
+
+
+employee-attrition-prediction/
+├── README.md
+├── data/
+├── notebooks/
+├── src/
+├── outputs/
+├── requirements.txt
+└── LICENSE
