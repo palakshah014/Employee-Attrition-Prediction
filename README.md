@@ -1,2 +1,27 @@
-# Employee-Attrition-Prediction
-The organization has experienced increasing voluntary turnover and wants to better understand which workforce factors are associated with attrition. This project develops an interpretable machine-learning model to identify patterns associated with employee exits and provide population-level insights that may inform retention strategy.
+employee-attrition-prediction/
+│
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_data_generation.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_modeling.ipynb
+│   └── 05_model_interpretation.ipynb
+│
+├── src/
+│   ├── generate_data.py
+│   ├── preprocessing.py
+│   ├── train.py
+│   └── evaluate.py
+│
+├── outputs/
+│   ├── figures/
+│   └── tables/
+│
+├── requirements.txt
+├── .gitignore
+└── LICENSE
