@@ -1,27 +1,7 @@
-employee-attrition-prediction/
-│
-├── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── 01_data_generation.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_modeling.ipynb
-│   └── 05_model_interpretation.ipynb
-│
-├── src/
-│   ├── generate_data.py
-│   ├── preprocessing.py
-│   ├── train.py
-│   └── evaluate.py
-│
-├── outputs/
-│   ├── figures/
-│   └── tables/
-│
-├── requirements.txt
-├── .gitignore
-└── LICENSE
+# Employee Attrition Prediction
+
+## Overview
+This project uses synthetic workforce data to identify factors associated with voluntary employee attrition and compare multiple machine-learning approaches.
+
+## Business Problem
+The goal is to understand which workforce factors are associated with higher attrition risk and translate those findings into responsible retention insights.
